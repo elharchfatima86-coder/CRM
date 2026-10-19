@@ -1,3 +1,7 @@
-h {
+h1 {
     color: blue;
+}
+
+#backend-status {
+    font-family: sans-serif;
 }
