@@ -10,7 +10,7 @@ mongoose.connect(process.env.MONGO_URI)
     .catch((err) => console.error('Erreur MongoDB :', err.message));
 
 app.get("/", (req, res) => {
-    res.send("Amine, bravo");
+    res.send("hello from the backend");
 });
 
 app.listen(PORT, () => {
